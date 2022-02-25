@@ -1,0 +1,16 @@
+{
+  // Extension ID: ngpnjhckbphhjmbnekiieocnjemgdlne
+  "manifest_version": 2, //required
+  "version": "1.0", //required
+  "name": "test1", //required
+  "description": "Tool to open webdisk folder using relevant metadata",
+  "icons":
+  {
+      "16": "images/butler16.png",
+      "48": "images/butler48.png",
+      "128": "images/butler128.png"
+  },
+  "background": {"scripts": ["background.js"] },
+  "browser_action": {},
+  "permissions": [ "tabs", "nativeMessaging", "activeTab", "background" ]
+}
