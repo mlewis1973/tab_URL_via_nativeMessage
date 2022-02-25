@@ -5,7 +5,7 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 
         alert(url);
 
-        var hostName = "com.google.chrome.utsouthwestern.flywheel_valet";
+        var hostName = "com.google.chrome.host.test2";
         port = chrome.runtime.connectNative(hostName);
         message = { "url": url};
         port.postMessage(message);
